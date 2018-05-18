@@ -2,14 +2,14 @@
   "manifest_version": 2,
 
   "name": "GitHubFix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reverse GitHub.com site changes made in May 2018",
 
   "content_scripts": [
     {
       "css": ["styles.css"],
       "js": ["content.js"],
-      "matches": ["https://github.com/"]
+      "matches": ["https://github.com/*"]
     }
   ]
 }
