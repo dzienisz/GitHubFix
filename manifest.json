@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "GitBetter",
-  "version": "1.0.0",
+  "name": "GitHubFix",
+  "version": "1.0.1",
   "description": "Reverse GitHub.com site changes made in May 2018",
 
   "content_scripts": [
